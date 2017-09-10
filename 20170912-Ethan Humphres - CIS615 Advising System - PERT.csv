@@ -1,0 +1,29 @@
+Id,Name,Shape Library,Page ID,Contained By,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1,Text Area 2
+1,Page,,,,,,,,Page 1,
+2,Terminator,Flowchart Shapes,1,,,,,,Start,
+3,Table,Tables,1,,,,,,Formalize specifications,Duration: 8
+4,Table,Tables,1,,,,,,Configure hardware,Duration: 16
+5,Table,Tables,1,,,,,,Design Database,Duration: 16
+6,Table,Tables,1,,,,,,Design User Interface,Duration: 960
+7,Table,Tables,1,,,,,,Test Software,Duration: 40
+8,Table,Tables,1,,,,,,Create Manual/Tutorial,Duration: 480
+9,Terminator,Flowchart Shapes,1,,,,,,End,
+10,Table,Tables,1,,,,,,Release Software,Duration: 4
+11,Table,Tables,1,,,,,,Edit/Update Manual/Tutorial,Duration: 16
+12,Table,Tables,1,,,,,,Publish Manual/Tutorial,Duration: 2
+13,Text,Default,1,,,,,,*Duration is in man-hours,
+14,Table,Tables,1,,,,,,Configure User Interface,Duration: 800
+15,Line,,1,,2,3,None,Arrow,,
+16,Line,,1,,3,4,None,Arrow,,
+17,Line,,1,,3,8,None,Arrow,,
+18,Line,,1,,12,9,None,Arrow,,
+19,Line,,1,,10,9,None,Arrow,,
+20,Line,,1,,8,11,None,Arrow,,
+21,Line,,1,,11,12,None,Arrow,,
+22,Line,,1,,14,11,None,Arrow,,
+23,Line,,1,,4,5,None,Arrow,,
+24,Line,,1,,5,7,None,Arrow,,
+25,Line,,1,,7,10,None,Arrow,,
+26,Line,,1,,3,6,None,Arrow,,
+27,Line,,1,,14,7,None,Arrow,,
+28,Line,,1,,6,14,None,Arrow,,
