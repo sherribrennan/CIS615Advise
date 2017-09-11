@@ -1,0 +1,91 @@
+
+Task Mode	Task Name	Duration	Start	Finish	Predecessors	Resource Names
+Auto Scheduled	Software Development	121.25 days	Mon 9/11/17	Tue 2/27/18		
+Auto Scheduled	   Scope	3.5 days	Mon 9/11/17	Thu 9/14/17		
+Auto Scheduled	      Determine project scope	4 hrs	Mon 9/11/17	Mon 9/11/17		Management
+Auto Scheduled	      Secure project sponsorship	1 day	Mon 9/11/17	Tue 9/12/17	2	Management
+Auto Scheduled	      Define preliminary resources	1 day	Tue 9/12/17	Wed 9/13/17	3	Project Manager
+Auto Scheduled	      Secure core resources	1 day	Wed 9/13/17	Thu 9/14/17	4	Project Manager
+Auto Scheduled	      Scope complete	0 days	Thu 9/14/17	Thu 9/14/17	5	
+Auto Scheduled	   Analysis/Software Requirements	39.5 days	Thu 9/14/17	Wed 11/8/17		
+Auto Scheduled	      Conduct needs analysis	5 days	Thu 9/14/17	Thu 9/21/17	6	Analyst
+Auto Scheduled	      Draft preliminary software specifications	3 days	Thu 9/21/17	Tue 9/26/17	8	Analyst
+Auto Scheduled	      Develop preliminary budget	2 days	Tue 9/26/17	Thu 9/28/17	9	Project Manager
+Auto Scheduled	      Review software specifications/budget with team	1 day	Thu 9/28/17	Fri 9/29/17	10	Project Manager,Analyst
+Auto Scheduled	      Incorporate feedback on software specifications	21.5 days	Fri 9/29/17	Mon 10/30/17	11	Analyst
+Auto Scheduled	      Develop delivery timeline	2 days	Tue 10/31/17	Wed 11/1/17	12	Project Manager
+Auto Scheduled	      Obtain approvals to proceed (concept, timeline, budget)	1 day	Fri 11/3/17	Fri 11/3/17	13	Management,Project Manager
+Auto Scheduled	      Secure required resources	3 days	Mon 11/6/17	Wed 11/8/17	14	Project Manager
+Auto Scheduled	      Analysis complete	0 days	Wed 11/8/17	Wed 11/8/17	15	
+Auto Scheduled	   Design	14.5 days	Thu 11/9/17	Wed 11/29/17		
+Auto Scheduled	      Review preliminary software specifications	2 days	Thu 11/9/17	Fri 11/10/17	16	Analyst
+Auto Scheduled	      Develop functional specifications	5 days	Mon 11/13/17	Fri 11/17/17	18	Analyst
+Auto Scheduled	      Develop prototype based on functional specifications	4 days	Mon 11/20/17	Thu 11/23/17	19	Analyst
+Auto Scheduled	      Review functional specifications	2 days	Fri 11/24/17	Mon 11/27/17	20	Management
+Auto Scheduled	      Incorporate feedback into functional specifications	1 day	Tue 11/28/17	Tue 11/28/17	21	Management
+Auto Scheduled	      Obtain approval to proceed	4 hrs	Wed 11/29/17	Wed 11/29/17	22	Management,Project Manager
+Auto Scheduled	      Design complete	0 days	Wed 11/29/17	Wed 11/29/17	23	
+Auto Scheduled	   Development	21.75 days	Wed 11/29/17	Fri 12/29/17		
+Auto Scheduled	      Review functional specifications	1 day	Wed 11/29/17	Thu 11/30/17	24	Developer
+Auto Scheduled	      Identify modular/tiered design parameters	1 day	Thu 11/30/17	Fri 12/1/17	26	Developer
+Auto Scheduled	      Assign development staff	1 day	Fri 12/1/17	Mon 12/4/17	27	Developer
+Auto Scheduled	      Develop code	15 days	Mon 12/4/17	Mon 12/25/17	28	Developer
+Auto Scheduled	      Developer testing (primary debugging)	15 days	Fri 12/8/17	Fri 12/29/17	29FS-75%	Developer
+Auto Scheduled	      Development complete	0 days	Fri 12/29/17	Fri 12/29/17	30	
+Auto Scheduled	   Testing	48.75 days	Wed 11/29/17	Tue 2/6/18		
+Auto Scheduled	      Develop unit test plans using product specifications	4 days	Wed 11/29/17	Tue 12/5/17	24	Testers
+Auto Scheduled	      Develop integration test plans using product specifications	4 days	Wed 11/29/17	Tue 12/5/17	24	Testers
+Auto Scheduled	      Unit Testing	15 days	Fri 12/29/17	Fri 1/19/18		
+Auto Scheduled	         Review modular code	5 days	Fri 12/29/17	Fri 1/5/18	33,31	Testers
+Auto Scheduled	         Test component modules to product specifications	2 days	Fri 1/5/18	Tue 1/9/18	31,36	Testers
+Auto Scheduled	         Identify anomalies to product specifications	3 days	Tue 1/9/18	Fri 1/12/18	37	Testers
+Auto Scheduled	         Modify code	3 days	Fri 1/12/18	Wed 1/17/18	38	Testers
+Auto Scheduled	         Re-test modified code	2 days	Wed 1/17/18	Fri 1/19/18	39	Testers
+Auto Scheduled	         Unit testing complete	0 days	Fri 1/19/18	Fri 1/19/18	40	
+Auto Scheduled	      Integration Testing	12 days	Fri 1/19/18	Tue 2/6/18		
+Auto Scheduled	         Test module integration	5 days	Fri 1/19/18	Fri 1/26/18	41	Testers
+Auto Scheduled	         Identify anomalies to specifications	2 days	Fri 1/26/18	Tue 1/30/18	43	Testers
+Auto Scheduled	         Modify code	3 days	Tue 1/30/18	Fri 2/2/18	44	Testers
+Auto Scheduled	         Re-test modified code	2 days	Fri 2/2/18	Tue 2/6/18	45	Testers
+Auto Scheduled	         Integration testing complete	0 days	Tue 2/6/18	Tue 2/6/18	46	
+Auto Scheduled	   Training	45.75 days	Wed 11/29/17	Thu 2/1/18		
+Auto Scheduled	      Develop training specifications for end users	3 days	Wed 11/29/17	Mon 12/4/17	24	Trainers
+Auto Scheduled	      Develop training specifications for helpdesk support staff	3 days	Wed 11/29/17	Mon 12/4/17	24	Trainers
+Auto Scheduled	      Identify training delivery methodology (computer based training, classroom, etc.)	2 days	Wed 11/29/17	Fri 12/1/17	24	Trainers
+Auto Scheduled	      Develop training materials	3 wks	Fri 12/29/17	Fri 1/19/18	49,31,50,51	Trainers
+Auto Scheduled	      Conduct training usability study	4 days	Fri 1/19/18	Thu 1/25/18	52	Trainers
+Auto Scheduled	      Finalize training materials	3 days	Thu 1/25/18	Tue 1/30/18	53	Trainers
+Auto Scheduled	      Develop training delivery mechanism	2 days	Tue 1/30/18	Thu 2/1/18	54	Trainers
+Auto Scheduled	      Training materials complete	0 days	Thu 2/1/18	Thu 2/1/18	55	
+Auto Scheduled	   Documentation	30.5 days	Wed 11/29/17	Wed 1/10/18		
+Auto Scheduled	      Develop Help specification	1 day	Wed 11/29/17	Thu 11/30/17	24	Technical Communicators
+Auto Scheduled	      Develop Help system	3 wks	Thu 12/14/17	Wed 1/3/18	58,29FS-50%	Technical Communicators
+Auto Scheduled	      Review Help documentation	3 days	Thu 1/4/18	Mon 1/8/18	59	Technical Communicators
+Auto Scheduled	      Incorporate Help documentation feedback	2 days	Tue 1/9/18	Wed 1/10/18	60	Technical Communicators
+Auto Scheduled	      Develop user manuals specifications	2 days	Wed 11/29/17	Fri 12/1/17	24	Technical Communicators
+Auto Scheduled	      Develop user manuals	3 wks	Thu 12/14/17	Wed 1/3/18	62,29FS-50%	Technical Communicators
+Auto Scheduled	      Review all user documentation	2 days	Thu 1/4/18	Fri 1/5/18	63	Technical Communicators
+Auto Scheduled	      Incorporate user documentation feedback	2 days	Mon 1/8/18	Tue 1/9/18	64	Technical Communicators
+Auto Scheduled	      Documentation complete	0 days	Wed 1/10/18	Wed 1/10/18	65,61	
+Auto Scheduled	   Pilot	70.25 days	Thu 11/9/17	Thu 2/15/18		
+Auto Scheduled	      Identify test group	1 day	Thu 11/9/17	Thu 11/9/17	16	Project Manager
+Auto Scheduled	      Develop software delivery mechanism	1 day	Fri 11/10/17	Fri 11/10/17	68	
+Auto Scheduled	      Install/deploy software	1 day	Tue 2/6/18	Wed 2/7/18	47,69,66,56	Deployment Team
+Auto Scheduled	      Obtain user feedback	1 wk	Wed 2/7/18	Wed 2/14/18	70	Deployment Team
+Auto Scheduled	      Evaluate testing information	1 day	Wed 2/14/18	Thu 2/15/18	71	Deployment Team
+Auto Scheduled	      Pilot complete	0 days	Thu 2/15/18	Thu 2/15/18	72	
+Auto Scheduled	   Deployment	5 days	Thu 2/15/18	Thu 2/22/18		
+Auto Scheduled	      Determine final deployment strategy	1 day	Thu 2/15/18	Fri 2/16/18	73	Deployment Team
+Auto Scheduled	      Develop deployment methodology	1 day	Fri 2/16/18	Mon 2/19/18	75	Deployment Team
+Auto Scheduled	      Secure deployment resources	1 day	Mon 2/19/18	Tue 2/20/18	76	Deployment Team
+Auto Scheduled	      Train support staff	1 day	Tue 2/20/18	Wed 2/21/18	77	Deployment Team
+Auto Scheduled	      Deploy software	1 day	Wed 2/21/18	Thu 2/22/18	78	Deployment Team
+Auto Scheduled	      Deployment complete	0 days	Thu 2/22/18	Thu 2/22/18	79	
+Auto Scheduled	   Post Implementation Review	3 days	Thu 2/22/18	Tue 2/27/18		
+Auto Scheduled	      Document lessons learned	1 day	Thu 2/22/18	Fri 2/23/18	80	Project Manager
+Auto Scheduled	      Distribute to team members	1 day	Fri 2/23/18	Mon 2/26/18	82	Project Manager
+Auto Scheduled	      Create software maintenance team	1 day	Mon 2/26/18	Tue 2/27/18	83	Project Manager
+Auto Scheduled	      Post implementation review complete	0 days	Tue 2/27/18	Tue 2/27/18	84	
+Auto Scheduled	   Software development template complete	0 days	Tue 2/27/18	Tue 2/27/18	85	
+
+ 
